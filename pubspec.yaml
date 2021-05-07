@@ -1,6 +1,6 @@
 name: window_to_front
 description: To have the application automatically bring itself to the front of the stack of application windows for Mac, Linux & Desktop.
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/sumitvekariya/window_to_front
 
 environment:
