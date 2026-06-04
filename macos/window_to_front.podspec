@@ -4,16 +4,17 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'window_to_front'
-  s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.version          = '0.0.4'
+  s.summary          = 'Brings the Flutter desktop application window to the front of the window stack.'
   s.description      = <<-DESC
-A new flutter plugin project.
+Brings your Flutter desktop application window back to the front of the window stack on macOS.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/sumitvekariya/window_to_front'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Sumit Vekariya' => 'sarkazein7@gmail.com' }
+
   s.source           = { :path => '.' }
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'window_to_front/Sources/window_to_front/**/*'
   s.dependency 'FlutterMacOS'
 
   s.platform = :osx, '10.11'
