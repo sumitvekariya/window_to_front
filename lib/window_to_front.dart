@@ -1,15 +1,16 @@
-// You have generated a new plugin project without
-// specifying the `--platforms` flag. A plugin project supports no platforms is generated.
-// To add platforms, run `flutter create -t plugin --platforms <platforms> .` under the same
-// directory. You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
-
 import 'dart:async';
 
 import 'package:flutter/services.dart';
 
+/// Brings the application window to the front of the window stack.
+///
+/// This is useful after an authentication flow (or any other use case) where
+/// the user is left looking at a web browser page and should be returned to
+/// the application automatically.
 class WindowToFront {
-  static const MethodChannel _channel = const MethodChannel('window_to_front');
+  static const MethodChannel _channel = MethodChannel('window_to_front');
 
+  /// Activates the application and brings its window to the front.
   static Future<void> activate() async {
     await _channel.invokeMethod('activate');
   }

@@ -5,3 +5,12 @@
 .pub/
 
 build/
+
+# Generated Flutter plugin/tooling files
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Swift Package Manager
+.build/
+.swiftpm/

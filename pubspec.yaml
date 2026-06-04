@@ -1,11 +1,18 @@
 name: window_to_front
-description: To have the application automatically bring itself to the front of the stack of application windows for Mac, Linux & Desktop.
-version: 0.0.3
+description: Brings your Flutter desktop application window back to the front of the window stack on Windows, Linux and macOS.
+version: 0.0.4
 repository: https://github.com/sumitvekariya/window_to_front
+issue_tracker: https://github.com/sumitvekariya/window_to_front/issues
+topics:
+  - window
+  - desktop
+  - macos
+  - linux
+  - windows
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=1.20.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -14,6 +21,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
