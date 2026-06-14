@@ -9,14 +9,23 @@ let package = Package(
         .macOS("10.11")
     ],
     products: [
+        // Library name uses "-" where plugin name uses "_"
         .library(name: "window-to-front", targets: ["window_to_front"])
     ],
-    dependencies: [],
+    dependencies: [
+        .package(name: "FlutterMacOS", path: "../FlutterMacOS")
+    ],
     targets: [
         .target(
             name: "window_to_front",
-            dependencies: [],
-            resources: []
+            dependencies: [
+                .product(name: "FlutterMacOS", package: "FlutterMacOS")
+            ],
+            resources: [
+                // .process("PrivacyInfo.xcprivacy"),
+            ]
         )
     ]
 )
+
+
