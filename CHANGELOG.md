@@ -1,3 +1,11 @@
+## 0.1.0
+
+* Added Swift Package Manager support for macOS.
+* Raised the minimum Flutter SDK to `>=3.41.0` (required for the `FlutterMacOS`
+  SwiftPM package). This is a breaking change for projects on older Flutter
+  versions, hence the minor version bump.
+* CocoaPods support is retained; both toolchains work side by side.
+
 ## 0.0.4
 
 * Migrated to Dart 3 (`sdk: '>=3.0.0 <4.0.0'`) and Flutter `>=3.3.0`.
