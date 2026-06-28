@@ -13,13 +13,13 @@ let package = Package(
         .library(name: "window-to-front", targets: ["window_to_front"])
     ],
     dependencies: [
-        .package(name: "FlutterMacOS", path: "../FlutterMacOS")
+        .package(name: "FlutterFramework", path: "../FlutterFramework")
     ],
     targets: [
         .target(
             name: "window_to_front",
             dependencies: [
-                .product(name: "FlutterMacOS", package: "FlutterMacOS")
+                .product(name: "FlutterFramework", package: "FlutterFramework")
             ],
             resources: [
                 // .process("PrivacyInfo.xcprivacy"),
@@ -27,5 +27,4 @@ let package = Package(
         )
     ]
 )
-
 

@@ -1,3 +1,8 @@
+## 0.1.1
+
+* Fixed macOS Swift Package Manager resolution for Flutter 3.44+ by depending
+  on Flutter's generated `FlutterFramework` package.
+
 ## 0.1.0
 
 * Added Swift Package Manager support for macOS.
