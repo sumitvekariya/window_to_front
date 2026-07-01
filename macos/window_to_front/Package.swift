@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "window_to_front",
     platforms: [
-        .macOS("10.11")
+        .macOS("10.15")
     ],
     products: [
         // Library name uses "-" where plugin name uses "_"
