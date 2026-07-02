@@ -1,3 +1,10 @@
+## 0.1.1
+
+* Fixed macOS Swift Package Manager resolution on current Flutter by depending
+  on Flutter's generated `FlutterFramework` package instead of `FlutterMacOS`.
+* Raised the macOS deployment target to 10.15 (required by `FlutterFramework`)
+  in both `Package.swift` and the podspec.
+
 ## 0.1.0
 
 * Added Swift Package Manager support for macOS.
