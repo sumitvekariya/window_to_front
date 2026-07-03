@@ -1,6 +1,7 @@
 # window_to_front
 
 [![pub package](https://img.shields.io/pub/v/window_to_front.svg)](https://pub.dev/packages/window_to_front)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/sumitvekariya?logo=github&label=Sponsor&color=EA4AAA)](https://github.com/sponsors/sumitvekariya)
 
 A Flutter plugin that brings your desktop application window back to the front
 of the window stack.
