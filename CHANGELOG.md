@@ -1,3 +1,9 @@
+## 0.1.2
+
+* Added GitHub Sponsors funding metadata: a `funding:` entry in `pubspec.yaml`
+  (shown as a Funding link on pub.dev), a README sponsor badge, and repository
+  funding configuration.
+
 ## 0.1.1
 
 * Fixed macOS Swift Package Manager resolution on current Flutter by depending
