@@ -1,8 +1,10 @@
 name: window_to_front
 description: Brings your Flutter desktop application window back to the front of the window stack on Windows, Linux and macOS.
-version: 0.1.1
+version: 0.1.2
 repository: https://github.com/sumitvekariya/window_to_front
 issue_tracker: https://github.com/sumitvekariya/window_to_front/issues
+funding:
+  - https://github.com/sponsors/sumitvekariya
 topics:
   - window
   - desktop
