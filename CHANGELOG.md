@@ -1,3 +1,10 @@
+## 1.0.0
+
+* First stable release. The public API (`WindowToFront.activate()`) is stable;
+  no API changes from 0.1.2.
+* Added unit tests for the method-channel interface.
+* Added a CI workflow running format, analyze, and test checks.
+
 ## 0.1.2
 
 * Added GitHub Sponsors funding metadata: a `funding:` entry in `pubspec.yaml`
